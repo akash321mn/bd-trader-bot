@@ -1,0 +1,9 @@
+cd "C:\Telegram BOT\Number 5 BOT"
+
+py -3.10 -m venv venv
+
+venv\Scripts\activate
+
+python -m app.bot
+
+pip install python-telegram-bot==21.4 pandas==2.2.2 numpy==1.26.4 python-dotenv==1.0.1 websockets==12.0
